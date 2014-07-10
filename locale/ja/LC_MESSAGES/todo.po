@@ -1,0 +1,68 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, ATS Community
+# This file is distributed under the same license as the ATS Docs and Tips package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ATS Docs and Tips 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-11 01:09+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/todo.rst:9
+# 5bfab5491abc4d368cfcca2c6de8d841
+msgid "TBD"
+msgstr ""
+
+#: ../../source/todo.rst:12
+# ef08a763368b4161b724ad3d288b28ec
+msgid "At-View Sugar"
+msgstr ""
+
+#: ../../source/todo.rst:14
+# ffb47543e2934ed5b6d044f535931d5c
+msgid "``#view``, ``#sugar``"
+msgstr ""
+
+#: ../../source/todo.rst:21
+# fae33a5f02584732be4b004e4c319d05
+msgid "is actually a sugar for"
+msgstr ""
+
+#: ../../source/todo.rst:28
+# 7e138d0ee52147b3a472584239832a28
+msgid "The de-sugar one says everything about the meaning of ``!`` and ``>>``."
+msgstr ""
+
+#: ../../source/todo.rst:32
+# 1ee39ceb5a3e46ae8d1d4b90f3f87c17
+msgid "foo (pf: !T?@l >> T@l | ptr (l))"
+msgstr ""
+
+#: ../../source/todo.rst:34
+# cf68fce1c1a04490a506db8b33687bf5
+msgid "@[T][n] Array"
+msgstr ""
+
+#: ../../source/todo.rst:38
+# 99338b88274143ea8ce63ff61f0dddbb
+msgid "The #[...] in existential qualifiers means that that variable can be referenced in function parameters. Notice the 'd' is referenced in the type of the 'd' argument. Without the '#' this would be an error."
+msgstr ""
+
+#: ../../source/todo.rst:40
+# 84f20244ed844acea491b2e1fc4c0e2c
+msgid "may be {} is universal contifier? https://groups.google.com/forum/#!topic/ats-lang-users/VKuV0kFysxc"
+msgstr ""
+
+#: ../../source/todo.rst:54
+# 62b77b3702a042ef8b51e98345e13df7
+msgid "https://groups.google.com/forum/#!topic/ats-lang-users/YDS58Hbs2aw"
+msgstr ""
+

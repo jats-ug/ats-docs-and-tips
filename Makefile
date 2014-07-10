@@ -2,7 +2,7 @@
 #
 
 # You can set these variables from the command line.
-SPHINXOPTS    =
+SPHINXOPTS    = -D language='ja'
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = build
@@ -151,3 +151,6 @@ doctest:
 	$(SPHINXBUILD) -b doctest $(ALLSPHINXOPTS) $(BUILDDIR)/doctest
 	@echo "Testing of doctests in the sources finished, look at the " \
 	      "results in $(BUILDDIR)/doctest/output.txt."
+
+updatepo:
+	@echo "TODO (See http://www.freia.jp/taka/blog/sphinx-i18n-translation-procedure-with-transifex-amazon-s3/)"

@@ -1,0 +1,108 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, ATS Community
+# This file is distributed under the same license as the ATS Docs and Tips package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ATS Docs and Tips 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-11 01:09+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/examples.rst:3
+# b00487473d20429a915521813e92c0d2
+msgid "Examples"
+msgstr ""
+
+#: ../../source/examples.rst:6
+# 726b0f077a9f4c84b1792183b5b8bc08
+msgid "Creating ATS Interface for C Library"
+msgstr ""
+
+#: ../../source/examples.rst:8
+# ee78d300c12f43e89df296e1e21d0ba6
+msgid "I did a `zlog <https://github.com/HardySimpson/zlog>`_ interface for ATS based on `Zhiqiang Ren <http://cs-people.bu.edu/aren/>`_'s work. You can access the code at `GitHub <https://github.com/steinwaywhw/ats-zlog>`_. And here's how I did it."
+msgstr ""
+
+#: ../../source/examples.rst:12
+# 11f7be2808994366b00d55fd85ca92e8
+msgid "Getting Start"
+msgstr ""
+
+#: ../../source/examples.rst:14
+# e2322d9ec80f4f0aa48609c3eb6d5548
+msgid "Download and install `zlog <https://github.com/HardySimpson/zlog>`_, read its `documents <http://hardysimpson.github.io/zlog/>`_ and `interfaces <https://github.com/HardySimpson/zlog/blob/master/src/zlog.h>`_, get familiar with it by writting some simple hello world in C."
+msgstr ""
+
+#: ../../source/examples.rst:17
+# d140f64afaee41e290d5484c79a3d47a
+msgid "Translate into a Minimum Workable ATS Interface"
+msgstr ""
+
+#: ../../source/examples.rst:19
+# 0a9a4c5cf8364e75b806a0da2096baee
+msgid "For a minimum hello world, we just write such a C program"
+msgstr ""
+
+#: ../../source/examples.rst:30
+# a512b371dcb04e708b3f615b73f1c7e6
+msgid "I consider the data structures first."
+msgstr ""
+
+#: ../../source/examples.rst:32
+# a11b98f7c0854aa797d2b1a6b0f3eb68
+msgid "``zlog_category *`` is used across interfaces, but I don't care it's inner structure, which means I can use an **abstract type**. It doesn't need to be freed manually, instead, all resources are freed by ``zlog_fini ()``. Therefore I make it **non-linear** in ATS. It is a pointer in C, I then use **boxed type** in ATS."
+msgstr ""
+
+#: ../../source/examples.rst:34
+# af6e1db9c9c74875b116450ea9d5fa93
+msgid "Therefore, I can define ``zlog_category`` using ``abstype``, which is abstract, non-linear, and boxed."
+msgstr ""
+
+#: ../../source/examples.rst:40
+# e076edff72f04adfae3ca4ff866e78bd
+msgid "For functions, we can translate them directly into ATS"
+msgstr ""
+
+#: ../../source/examples.rst:48
+# 1dfe881582d14f21a44e377e6eee10e3
+msgid "The logging function ``zlog`` is tricky since it has variable length parameter list. What I do here is using an intermediate C function."
+msgstr ""
+
+#: ../../source/examples.rst:56
+# cb313a963a0d496f93ffcece5cf9aa8a
+msgid "And in the DATS file, I implement it as follows"
+msgstr ""
+
+#: ../../source/examples.rst:81
+# 8d651a2e45b4485c99a431b13da2240f
+msgid "The ``vzlog`` is an alternative interface provided ``zlog`` itself. Most library interfaces will provide such an alternative besides its original variable length version."
+msgstr ""
+
+#: ../../source/examples.rst:83
+# 57dcfb8fd7394430beab5f8bab85a9c1
+msgid "And now we can use them to write the hello world example."
+msgstr ""
+
+#: ../../source/examples.rst:86
+# c7833b1d7f0b4b79bc3c41ef6d45d558
+msgid "Refining Types"
+msgstr ""
+
+#: ../../source/examples.rst:88
+# 5c8a039c3f154ec7bad284a8e6ace0ac
+msgid "My initial type for ``zlog_category *`` is just workable. But now I wanna force programmers to check whether it is a null pointer before using it."
+msgstr ""
+
+#: ../../source/examples.rst:90
+# 7fe871cfbda746878ea887ef066e9791
+msgid "I then change the definition and interface to the followings."
+msgstr ""
+

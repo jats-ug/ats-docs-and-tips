@@ -1,0 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, ATS Community
+# This file is distributed under the same license as the ATS Docs and Tips package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ATS Docs and Tips 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-11 01:09+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/index.rst:7
+# 465b204b117a4f58912a1dc14091aa31
+msgid "Welcome to ATS Docs and Tips!"
+msgstr ""
+
+#: ../../source/index.rst:9
+# f551e7b54c2a4d29bccbded4641011bb
+msgid "I hope this to be a place where all the people in the community could contribute docs and tips to boost ATS users."
+msgstr ""
+
+#: ../../source/index.rst:11
+# c0a7e34412a042b594adfed6dc439612
+msgid "Contents:"
+msgstr ""
+

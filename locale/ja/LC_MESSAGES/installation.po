@@ -1,0 +1,110 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2013, ATS Community
+# This file is distributed under the same license as the ATS Docs and Tips package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ATS Docs and Tips 0.0.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-07-11 01:09+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../../source/installation.rst:3
+# 500e39fe92b94fd9a711990f675df902
+msgid "Installation"
+msgstr ""
+
+#: ../../source/installation.rst:6
+# 279825261cdc413995ae4653d0b772ae
+msgid "Install ATS 2 from Source Code"
+msgstr ""
+
+#: ../../source/installation.rst:8
+# e123aade91324df797cba9a289cd00a6
+msgid "Before installing ATS 2, we need the latest version of ATS 1 first."
+msgstr ""
+
+#: ../../source/installation.rst:10
+# 31d0297697914a9dbced22084234c8f9
+msgid "Download ATS 0.2.10 from http://sourceforge.net/projects/ats-lang/files/"
+msgstr ""
+
+#: ../../source/installation.rst:11
+# 9a4a4d2f141b4e26933463755339a28c
+msgid "Unzip it into a folder, e.g. ``~/ats``"
+msgstr ""
+
+#: ../../source/installation.rst:12
+# b2bb8dd7d8824c21acfce9e43e8cfd52
+msgid "Setup environment variables"
+msgstr ""
+
+#: ../../source/installation.rst:20
+# e8dc403e76ce4248a3c473c66ccebb02
+msgid "Configure"
+msgstr ""
+
+#: ../../source/installation.rst:22
+# efe664ab43a64ee18d3537c83aac4747
+msgid "You may need to install ``autoconf`` package first"
+msgstr ""
+
+#: ../../source/installation.rst:33
+#: ../../source/installation.rst:56
+# d6d7f2fa020443e7869d94fc4fb8f84f
+# 35cf7e5b9d1a46c9a21752a3bdee4553
+msgid "Make"
+msgstr ""
+
+#: ../../source/installation.rst:39
+# 7f2a5fe2d2d74d80be2b3d469790c6f1
+msgid "Make sure that all the binaries are under ``bin``, and all the libraries are under ``ccomp/lib`` and ``ccomp/lib64``."
+msgstr ""
+
+#: ../../source/installation.rst:42
+# d28b7645385047dc8fe85c561aa124b5
+msgid "Next, we are building ATS 2. CMake 2.8+ is recommended."
+msgstr ""
+
+#: ../../source/installation.rst:45
+# 3a915c564dc3475488ea4afbbe3bd80a
+msgid "Download source code from GitHub, https://github.com/githwxi/ATS-Postiats/archive/master.zip"
+msgstr ""
+
+#: ../../source/installation.rst:46
+# 3856658b7b1d470a8f8dbfbca31f63ee
+msgid "Unzip it into a folder, e.g. ``~/ats2``"
+msgstr ""
+
+#: ../../source/installation.rst:47
+# 76a1ba1021bd49d9bc5c7a407b6d12ef
+msgid "Setting up environment variables"
+msgstr ""
+
+#: ../../source/installation.rst:68
+# fbc39f0531a64ef79abad7ac9ccf801e
+msgid "Next, build libraries and tools"
+msgstr ""
+
+#: ../../source/installation.rst:70
+# 7f00108aef75489ca098d05968eaba7e
+msgid "Generate source code from templates"
+msgstr ""
+
+#: ../../source/installation.rst:78
+# a5362491733542798f529cd9dc58a923
+msgid "Make C Target Compiler and Libraries"
+msgstr ""
+
+#: ../../source/installation.rst:85
+# 9cd494466a2c4eb688c911cda1e0284c
+msgid "Make utilities"
+msgstr ""
+
