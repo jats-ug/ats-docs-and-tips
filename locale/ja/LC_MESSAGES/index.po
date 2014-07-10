@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: ATS Docs and Tips 0.0.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2014-07-11 01:09+0900\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2014-07-11 01:31+0900\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: ../../source/index.rst:7
 # 465b204b117a4f58912a1dc14091aa31
 msgid "Welcome to ATS Docs and Tips!"
-msgstr ""
+msgstr "ようこそ ATS Docs and Tips へ!"
 
 #: ../../source/index.rst:9
 # f551e7b54c2a4d29bccbded4641011bb
@@ -29,5 +29,5 @@ msgstr ""
 #: ../../source/index.rst:11
 # c0a7e34412a042b594adfed6dc439612
 msgid "Contents:"
-msgstr ""
+msgstr "目次:"
 
